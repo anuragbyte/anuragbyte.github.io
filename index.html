@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #FFA500;
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Learn Advanced Programming paradigms</h1>
+  <p> This website will help students in learning programming paradigms in an effective manner <p>
+<h4>RA1811028010056 Anurag Singh</h4>
+</div>
+
+<div class="navbar">
+  <a href="#" class="middle">List of programming paradigms</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h3>Structural paradigm</h3>
+    <h3>Procedural paradigm</h3>
+    <h3>Object Oriented Programming paradigm</h3>
+    <h3>Event Driven  paradigm</h3>
+    <h3>Declarative paradigm</h3>
+    <h3>Imperative  paradigm</h3>
+    <h3>Parallel paradigm</h3>
+    <h3>Concurrent paradigm</h3>
+    <h3>Functional paradigm</h3>
+    <h3>Logic paradigm</h3>
+    <h3>Dependent paradigm</h3>
+    <h3>Network paradigm</h3>
+    <h3>Symbolic paradigm</h3>
+    <h3> Automata paradigm</h3>
+    <h3>GUI paradigm</h3>
+
+
+  </div>
+  <div class="main">
+    <h2>What is Programming Paradigm?</h2>
+    <p> A paradigm is a way of doing something (like programming), not a concrete thing (like a language). Now, it’s true that if a programming language L happens to make a particular programming paradigm P easy to express, then we often say “L is a P language” (e.g. “Haskell is a functional programming language”) but that does not mean there is any such thing as a “functional language paradigm”.</p>
+    <h2>Description of programming paradigms:</h2>
+    <h3>Structural Programming Paradigm</h3>
+    <p>Structured Programming Approach, as the word suggests, can be defined as a programming approach in which the program is made as a single structure. It means that the code will execute the instruction by instruction one after the other. It doesn’t support the possibility of jumping from one instruction to some other with the help of any statement like GOTO, etc. Therefore, the instructions in this approach will be executed in a serial and structured manner. The languages that support Structured programming approach are:
+  <ul> C
+    C++
+    Java
+    C#
+    etc...</ul>
+<h5>ADVANTAGES OF STRUCTURED PROGRAMMING PARADIGM</h5>
+<ol>
+   Easier to read and understand and user friendly.</ol>
+<ol>
+  Easier to Maintain
+</ol>
+<h5>DISADVANTAGES OF STRUCTURED PROGRAMMING PARADIGM</h5>
+<ol>The converted machine code is not the same as for assembly language.</ol>
+<ol>Usually the development in this approach takes longer time as it is language-dependent. Whereas in the case of assembly language, the development takes lesser time as it is fixed for the machine.</ol>
+</div>
+
+
+  <div class="main">
+    <h3>Procedural Programming Paradigm</h3>
+    <p>Procedural programming is a programming paradigm, derived from structured programming, [citation needed] based on the concept of the procedure call. Procedures, also known as routines, subroutines, or functions, simply contain a series of computational steps to be carried out. Any given procedure might be called at any point during a program's execution, including by other procedures r itself. The first major procedural programming languages appeared circa 1957–1964, including Fortran, ALGOL, COBOL, PL/I and BASIC.[1] Pascal and C were published circa 1970–1972.
+    Computer processors provide hardware support for procedural programming through a stack register and instructions for calling procedures and returning from them. Hardware support for other types of programming is possible, but no attempt was commercially successful (for example Lisp machines or Java processors)</p>
+    <h5>ADVANTAGES OF PROCEDURAL PROGRAMMING PARADIGM</h5>
+    <ol>
+       Procedural Programming is excellent for general-purpose programming</ol>
+    <ol>
+       The source code is portable, therefore, it can be used to target a different CPU as well
+    </ol>
+    <ol>
+      The code can be reused in different parts of the program, without the need to copy it
+    </ol>
+    <h5>DISADVANTAGES OF PROCEDURAL PROGRAMMING PARADIGM</h5>
+    <ol>The program code is harder to write when Procedural Programming is employed</ol>
+    <ol>The Procedural code is often not reusable, which may pose the need to recreate the code if is needed to use in another application</ol>
+    <ol>Difficult to relate with real-world objects</ol>
+    <br>
+    <h3>Object Oriented Programming Paradigm</h3>
+    <p>As the name suggests uses objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.</p>
+    <p><b>Class</b>: The building block of C++ that leads to Object-Oriented programming is a Class. It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object.
+       For Example: Consider the Class of Cars. There may be many cars with different names and brand but all of them will share some common properties like all of them will have 4 wheels, Speed Limit, Mileage range etc. So here, Car is the class and wheels, speed limits, mileage are their properties.</p>
+         <p><b>Encapsulation</b>: In normal terms, Encapsulation is defined as wrapping up of data and information under a single unit. In Object-Oriented Programming, Encapsulation is defined as binding together the data and the functions that manipulate them.</p>
+         <p><b>Inheritance</b>: The capability of a class to derive properties and characteristics from another class is called Inheritance. Inheritance is one of the most important features of Object-Oriented Programming</p>
+         <p><b>Polymorphism</b>: The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.</p>
+       <br>
+    <h3>Event Driven Programming Paradigm</h3>
+  <p>In computer programming, event-driven programming is a programming paradigm in which the flow of the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs, or messages from other programs or threads. Event-driven programming is the dominant paradigm used in graphical user interfaces and other applications (e.g., JavaScript web applications) that are centered on performing certain actions in response to user input.</p>
+    <p>n an event-driven application, there is generally a main loop that listens for events, and then triggers a callback function when one of those events is detected. In embedded systems, the same may be achieved using hardware interrupts instead of a constantly running main loop. Event-driven programs can be written in any programming language, although the task is easier in languages that provide high-level abstractions, such as await and closures.</p>
+    <br>
+    <h3>Declarative Programming Paradigm</h3>
+  <p>In computer science, declarative programming is a programming paradigm—a style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow.
+
+Many languages that apply this style attempt to minimize or eliminate side effects by describing what the program must accomplish in terms of the problem domain, rather than describe how to accomplish it as a sequence of the programming language primitives[2] (the how being left up to the language's implementation). This is in contrast with imperative programming, which implements algorithms in explicit steps.
+
+Declarative programming often considers programs as theories of a formal logic, and computations as deductions in that logic space. Declarative programming may greatly simplify writing parallel programs.
+
+Common declarative languages include those of database query languages (e.g., SQL, XQuery), regular expressions, logic programming, functional programming, and configuration management systems.</p>
+<p><b>Constraint programming</b>: Constraint programming states relations between variables in the form of constraints that specify the properties of the target solution. The set of constraints is solved by giving a value to each variable so that the solution is consistent with the maximum number of constraints.</p>
+<p><b>Domain-specific languages</b>: Well-known examples of declarative domain-specific languages (DSLs) include the yacc parser generator input language, QML, the Make build specification language, Puppet's configuration management language, regular expressions, and a subset of SQL (SELECT queries, for example). DSLs have the advantage of being useful while not necessarily needing to be Turing-complete, which makes it easier for a language to be purely declarative.</p>
+    <br>
+    <h3>Imperative Programming Paradigm</h3>
+  <p>In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates.
+     The term is often used in contrast to declarative programming, which focuses on what the program should accomplish without specifying how the program should achieve the result.
+     Imperative programming is a paradigm of computer programming in which the program describes a sequence of steps that change the state of the computer. Unlike declarative programming, which describes "what" a program should accomplish, imperative programming explicitly tells the computer "how" to accomplish it. Programs written this way often compile to binary executables that run more efficiently since all CPU instructions are themselves imperative statements.</p>
+     <p><b>Examples of imperative programming languages</b>: ALGOL,C++,FORTRAN,PHP,PYTHON</p>
+     <br>
+     <h3>Parallel Programming Paradigm</h3>
+     <p>In computing, a parallel programming model is an abstraction of parallel computer architecture, with which it is convenient to express algorithms and their composition in programs. The value of a programming model can be judged on its generality: how well a range of different problems can be expressed for a variety of different architectures, and its performance: how efficiently the compiled programs can execute.[1] The implementation of a parallel programming model can take the form of a library invoked from a sequential language, as an extension to an existing language, or as an entirely new language.</p>
+      <p>Consensus around a particular programming model is important because it leads to different parallel computers being built with support for the model, thereby facilitating portability of software. In this sense, programming models are referred to as bridging between hardware and software.</p>
+      <br>
+      <h3>Concurrent Programming Paradigm</h3>
+      <p>Concurrent computing is a form of computing in which several computations are executed concurrently—during overlapping time periods—instead of sequentially, with one completing before the next starts.
+      This is a property of a system—whether a program, computer, or a network—where there is a separate execution point or "thread of control" for each process. A concurrent system is one where a computation can advance without waiting for all other computations to complete.</p>
+       <p>Concurrent computing is a form of modular programming. In its paradigm an overall computation is factored into subcomputations that may be executed concurrently. Pioneers in the field of concurrent computing include Edsger Dijkstra, Per Brinch Hansen, and C.A.R. Hoare.</p>
+       <br>
+       <h3>Functional Programming Paradigm</h3>
+       <p>In computer science, functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm in that programming is done with expressions or declarations[1] instead of statements. In functional code, the output value of a function depends only on its arguments, so calling a function with the same value for an argument always produces the same result. This is in contrast to imperative programming where, in addition to a function's arguments, global program state can affect a function's resulting value. One of the key motivations for the development of functional programming is making a program easier to understand by eliminating changes in state that do not depend on function inputs which are called side effects.</p>
+       <p>functional programming has its origins in lambda calculus, a formal system developed in the 1930s to investigate computability, the Entscheidungsproblem, function definition, function application, and recursion. Many functional programming languages can be viewed as elaborations on the lambda calculus. Another well-known declarative programming paradigm, logic programming, is based on relations.</p>
+       <br>
+       <h3>Logic Programming Paradigm</h3>
+       <p>Logic programming is a computer programming paradigm in which program statements express facts and rules about problems within a system of formal logic. Rules are written as logical clauses with a head and a body; for instance, "H is true if B1, B2, and B3 are true." Facts are expressed similar to rules, but without a body; for instance, "H is true."</p>
+       <p>Some logic programming languages, such as Datalog and ASP (Answer Set Programming), are purely declarative. They allow for statements about what the program should accomplish, with no explicit step-by-step instructions on how to do so. Others, such as Prolog, are a combination of declarative and imperative. They may also include procedural statements, such as "To solve H, solve B1, B2, and B3."</p>
+       <br>
+       <h3>Dependent Programming Paradigm</h3>
+       <p>In computer science and logic, a dependent type is a type whose definition depends on a value. It is an overlapping feature of type theory and type systems. In intuitionistic type theory, dependent types are used to encode logic's quantifiers like "for all" and "there exists". In functional programming languages like Agda, ATS, Coq, F*, Epigram, and Idris, dependent types may help reduce bugs by enabling the programmer to assign types that further restrain the set of possible implementations.</p>
+       <p>Two common examples of dependent types are dependent functions and dependent pairs. The return type of a dependent function may depend on the value (not just type) of one of its arguments. For instance, a function that takes a positive integer {\displaystyle n} n may return an array of length {\displaystyle n} n, where the array length is part of the type of the array. (Note that this is different from polymorphism and generic programming, both of which include the type as an argument.) A dependent pair may have a second value of which the type depends on the first value. Sticking with the array example, a dependent pair may be used to pair an array with its length in a type-safe way.</p>
+       <br>
+       <h3>Network Programming Paradigm</h3>
+       <p>Procedural programming is a programming paradigm, derived from structured programming, [citation needed] based on the concept of the procedure call. Procedures, also known as routines, subroutines, or functions, simply contain a series of computational steps to be carried out. Any given procedure might be called at any point during a program's execution, including by other procedures r itself. The first major procedural programming languages appeared circa 1957–1964, including Fortran, ALGOL, COBOL, PL/I and BASIC.[1] Pascal and C were published circa 1970–1972.</p>
+       <p>Computer processors provide hardware support for procedural programming through a stack register and instructions for calling procedures and returning from them. Hardware support for other types of programming is possible, but no attempt was commercially successful (for example Lisp machines or Java processors)</p>
+       <br>
+       <h3>Symbolic Programming Paradigm</h3>
+       <p>In computer programming, symbolic programming is a programming paradigm in which the program can manipulate its own formulas and program components as if they were plain data.
+
+Through symbolic programming, complex processes can be developed that build other more intricate processes by combining smaller units of logic or functionality. Thus, such programs can effectively modify themselves and appear to "learn", which makes them better suited for applications such as artificial intelligence, expert systems, natural language processing, and computer games.Languages that support symbolic programming include homoiconic languages such as Wolfram Language, LISP and Prolog.</p>
+<br>
+<h3>Automata Programming Paradigm</h3>
+<p>Automata-based programming is a programming paradigm in which the program or part of it is thought of as a model of a finite-state machine (FSM) or any other (often more complicated) formal automaton (see automata theory). Sometimes a potentially infinite set of possible states is introduced, and such a set can have a complicated structure, not just an enumeration.</p>
+<p>The following properties are key indicators for automata-based programming:</p>
+<p>The time period of the program's execution is clearly separated down to the automaton steps. Each step is effectively an execution of a code section (same for all the steps) which has a single entry point. That section might be divided down to subsections to be executed depending on different states, although this is not necessary.</p>
+<p>Any communication between the automaton steps is only possible via the explicitly noted set of variables named the automaton state. Between any two steps, the program cannot have implicit components of its state, such as local variables' values, return addresses, the current instruction pointer, etc. That is, the state of the whole program, taken at any two moments of entering an automaton step, can only differ in the values of the variables being considered as the automaton state.</p>
+<br>
+<h3>GUI Programming Paradigm</h3>
+<p>The graphical user interface (GUI /ˈdʒiːjuːaɪ/ gee-you-eye[1][Note 1] or /ˈɡuːi/[2]) is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs),[3][4][5] which require commands to be typed on a computer keyboard.</p>
+<p><b>USER INTERFACE AND INTERACTION DESIGN</b>: Designing the visual composition and temporal behavior of a GUI is an important part of software application programming in the area of human–computer interaction. Its goal is to enhance the efficiency and ease of use for the underlying logical design of a stored program, a design discipline named usability. Methods of user-centered design are used to ensure that the visual language introduced in the design is well-tailored to the tasks.</p>
+<p><b>COMPONENTS</b> A GUI uses a combination of technologies and devices to provide a platform that users can interact with, for the tasks of gathering and producing information.
+
+A series of elements conforming a visual language have evolved to represent information stored in computers. This makes it easier for people with few computer skills to work with and use computer software.</p>
+</div>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
